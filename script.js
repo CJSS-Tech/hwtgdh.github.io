@@ -39,30 +39,104 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// 添加卡片淡入动画
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
+// 加载资源数据
+async function loadResources() {
+    try {
+        const response = await fetch('resources.json');
+        const data = await response.json();
+        renderResources(data);
+    } catch (error) {
+        console.error('加载资源失败:', error);
+    }
+}
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = '0';
-            entry.target.style.transform = 'translateY(20px)';
-            
-            setTimeout(() => {
-                entry.target.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }, 100);
-            
-            observer.unobserve(entry.target);
+// 渲染资源到页面
+function renderResources(data) {
+    data.categories.forEach(category => {
+        const section = document.getElementById(category.id);
+        if (!section) return;
+
+        const container = section.querySelector('.resource-grid');
+        container.innerHTML = ''; // 清空现有内容
+
+        if (category.hasSubcategories) {
+            // 有二级分类的情况
+            category.subcategories.forEach(subcategory => {
+                if (subcategory.resources && subcategory.resources.length > 0) {
+                    // 创建子分类标题
+                    const subcatTitle = document.createElement('h3');
+                    subcatTitle.className = 'col-span-full text-xl font-semibold text-gray-700 mt-4 mb-2';
+                    subcatTitle.textContent = subcategory.name;
+                    container.appendChild(subcatTitle);
+
+                    // 渲染该子分类下的资源
+                    subcategory.resources.forEach(resource => {
+                        const card = createResourceCard(resource);
+                        container.appendChild(card);
+                    });
+                }
+            });
+        } else {
+            // 没有二级分类，直接渲染资源
+            if (category.resources && category.resources.length > 0) {
+                category.resources.forEach(resource => {
+                    const card = createResourceCard(resource);
+                    container.appendChild(card);
+                });
+            }
         }
     });
-}, observerOptions);
 
-// 观察所有资源卡片
-document.querySelectorAll('.resource-card').forEach(card => {
-    observer.observe(card);
-});
+    // 重新初始化动画观察器
+    initCardAnimations();
+}
+
+// 创建资源卡片
+function createResourceCard(resource) {
+    const card = document.createElement('div');
+    card.className = 'resource-card';
+    
+    card.innerHTML = `
+        <h3>${resource.title}</h3>
+        <p>${resource.description}</p>
+        ${resource.subscribers ? `<p class="text-sm text-gray-500">👥 ${resource.subscribers}</p>` : ''}
+        ${resource.members ? `<p class="text-sm text-gray-500">👥 ${resource.members}</p>` : ''}
+        ${resource.username ? `<p class="text-sm text-gray-500">用户名: ${resource.username}</p>` : ''}
+        ${resource.contact ? `<p class="text-sm text-gray-500">联系: ${resource.contact}</p>` : ''}
+        <a href="${resource.link}" class="btn" target="_blank" rel="noopener">访问</a>
+    `;
+    
+    return card;
+}
+
+// 初始化卡片动画
+function initCardAnimations() {
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '0';
+                entry.target.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    entry.target.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, 100);
+                
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.resource-card').forEach(card => {
+        observer.observe(card);
+    });
+}
+
+// 页面加载时加载资源
+document.addEventListener('DOMContentLoaded', loadResources);

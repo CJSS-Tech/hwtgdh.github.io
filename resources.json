@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "id": "channels",
+      "name": "中文频道",
+      "icon": "📢",
+      "description": "精选优质中文频道，涵盖新闻资讯、吃瓜爆料、音乐、电影、成人、财经、牛人故事、科技等各个领域",
+      "hasSubcategories": true,
+      "subcategories": [
+        {
+          "name": "吃瓜爆料",
+          "resources": [
+            {
+              "title": "海外吃瓜 @hwcg",
+              "description": "热点追踪｜全球海外华人新闻 ｜黑料爆料｜东南亚大事件 ｜黑料爆料｜东南亚大事件 ｜缅甸大事件 ｜缅甸大事件｜泰国大事件",
+              "link": "https://t.me/hwcg",
+              "subscribers": "10K+"
+            }
+          ]
+        },
+        {
+          "name": "读书&小说",
+          "resources": []
+        },
+        {
+          "name": "影视娱乐",
+          "resources": []
+        },
+        {
+          "name": "成人内容",
+          "resources": []
+        },
+        {
+          "name": "财经&数字货币",
+          "resources": []
+        },
+        {
+          "name": "海外牛人",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "name": "行业交流群",
+      "icon": "👥",
+      "description": "各行业专业人士交流讨论的优质群组",
+      "hasSubcategories": true,
+      "subcategories": [
+        {
+          "name": "互联网科技",
+          "resources": [
+            {
+              "title": "示例群组名称",
+              "description": "群组简介描述",
+              "link": "https://t.me/group_name",
+              "members": "500+"
+            }
+          ]
+        },
+        {
+          "name": "金融投资",
+          "resources": []
+        },
+        {
+          "name": "创业商业",
+          "resources": []
+        },
+        {
+          "name": "设计创意",
+          "resources": []
+        },
+        {
+          "name": "外语学习",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "海外商机",
+      "icon": "🌍",
+      "description": "发现全球商业机会，拓展国际视野",
+      "hasSubcategories": true,
+      "subcategories": [
+        {
+          "name": "跨境电商",
+          "resources": []
+        },
+        {
+          "name": "国际贸易",
+          "resources": []
+        },
+        {
+          "name": "海外投资",
+          "resources": []
+        },
+        {
+          "name": "项目合作",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "name": "求职&招聘",
+      "icon": "💼",
+      "description": "连接优秀人才与优质岗位",
+      "hasSubcategories": true,
+      "subcategories": [
+        {
+          "name": "技术岗位",
+          "resources": []
+        },
+        {
+          "name": "设计岗位",
+          "resources": []
+        },
+        {
+          "name": "运营市场",
+          "resources": []
+        },
+        {
+          "name": "远程工作",
+          "resources": []
+        },
+        {
+          "name": "实习机会",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "bots",
+      "name": "机器人",
+      "icon": "🤖",
+      "description": "实用的Telegram机器人工具集合",
+      "hasSubcategories": false,
+      "resources": [
+        {
+          "title": "示例Bot名称",
+          "description": "Bot功能描述",
+          "link": "https://t.me/bot_name",
+          "username": "@bot_name"
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "name": "广告业务",
+      "icon": "📣",
+      "description": "Telegram广告投放与推广服务",
+      "hasSubcategories": false,
+      "resources": [
+        {
+          "title": "服务名称",
+          "description": "服务描述",
+          "link": "https://t.me/contact",
+          "contact": "@username"
+        }
+      ]
+    }
+  ],
+  "updateTime": "2025-11-06"
+}

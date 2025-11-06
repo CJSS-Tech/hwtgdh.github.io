@@ -132,6 +132,11 @@ body {
     margin-top: 2rem;
 }
 
+/* 子分类标题 */
+.col-span-full {
+    grid-column: 1 / -1;
+}
+
 .resource-card {
     background: white;
     padding: 2rem;
@@ -154,8 +159,12 @@ body {
 
 .resource-card p {
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     line-height: 1.8;
+}
+
+.resource-card p:last-of-type {
+    margin-bottom: 1.5rem;
 }
 
 .btn {
