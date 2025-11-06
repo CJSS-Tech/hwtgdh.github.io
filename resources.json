@@ -20,11 +20,37 @@
         },
         {
           "name": "读书&小说",
-          "resources": []
+          "resources": [
+            {
+              "title": "读爽文小说 【 免费小说 ｜中文资源 ｜长篇小说 】",
+              "description": "小说迷的快乐老家，这里每天更新精彩小说——都市、玄幻、爽文、悬疑全都有！ 不怕书荒，就怕你不来！",
+              "link": "https://t.me/TalesforHer",
+              "subscribers": "5K+"
+            },
+            {
+              "title": "什么值得读（海量书籍｜免费书籍｜编程入门）",
+              "description": "收录各大平台值得一读的优质书籍，只为分享真正有价值的知识与思考。涵盖 #Python 编程、#经济学原理、#医学书籍、#企业运营、#心灵修行 等多个领域。欢迎订阅，与我们一起每天读一点，进步一点 👏",
+              "link": "https://t.me/dianzishu007",
+              "subscribers": "3K+"
+            }
+          ]
         },
         {
           "name": "影视娱乐",
-          "resources": []
+          "resources": [
+            {
+              "title": "免费电影 在线电影 免费追剧",
+              "description": "每日更新最新最热影视资源，高清电影、美剧、韩剧、综艺应有尽有，满足你的观影需求！",
+              "link": "https://t.me/iDrama1",
+              "subscribers": "2K+"
+            },
+            {
+              "title": "酷我音乐|经典老歌|抖音流行|免费音乐",
+              "description": "畅享音乐，无限精彩——欢迎来到酷我音乐频道！",
+              "link": "https://t.me/cjCoolMusic",
+              "subscribers": "14K+"
+            }
+          ]
         },
         {
           "name": "成人内容",
