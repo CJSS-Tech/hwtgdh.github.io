@@ -152,3 +152,38 @@ function initCardAnimations() {
 
 // 页面加载时加载资源
 document.addEventListener('DOMContentLoaded', loadResources);
+
+// 视图切换功能
+document.addEventListener('DOMContentLoaded', () => {
+    const cardViewBtn = document.getElementById('cardViewBtn');
+    const listViewBtn = document.getElementById('listViewBtn');
+    const resourceGrids = document.querySelectorAll('.resource-grid');
+
+    // 从本地存储读取用户偏好
+    const savedView = localStorage.getItem('viewMode') || 'card';
+    if (savedView === 'list') {
+        switchToListView();
+    }
+
+    cardViewBtn.addEventListener('click', () => {
+        switchToCardView();
+    });
+
+    listViewBtn.addEventListener('click', () => {
+        switchToListView();
+    });
+
+    function switchToCardView() {
+        resourceGrids.forEach(grid => grid.classList.remove('list-view'));
+        cardViewBtn.classList.add('active');
+        listViewBtn.classList.remove('active');
+        localStorage.setItem('viewMode', 'card');
+    }
+
+    function switchToListView() {
+        resourceGrids.forEach(grid => grid.classList.add('list-view'));
+        listViewBtn.classList.add('active');
+        cardViewBtn.classList.remove('active');
+        localStorage.setItem('viewMode', 'list');
+    }
+});
