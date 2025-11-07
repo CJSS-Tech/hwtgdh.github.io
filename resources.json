@@ -166,23 +166,20 @@
       "name": "海外商机",
       "icon": "🌍",
       "description": "发现全球商业机会，拓展国际视野",
-      "hasSubcategories": true,
-      "subcategories": [
+      "hasSubcategories": false,
+      "resources": [
         {
-          "name": "跨境电商",
-          "resources": []
+          "title": "商机发布频道",
+          "description": "海外商机 @hwsj 50u一条",
+          "link": "https://t.me/hwsj",
+          "members": "30K+ 成员 趋势📈",
+          "tags": ["供需"]
         },
         {
-          "name": "国际贸易",
-          "resources": []
-        },
-        {
-          "name": "海外投资",
-          "resources": []
-        },
-        {
-          "name": "项目合作",
-          "resources": []
+          "title": "SVIP交流对接群",
+          "description": "跨境电商资源对接、经验分享、问题解答",
+          "members": "1K+ 成员 💬400+ 在线 趋势📈",
+          "tags": ["供需"]
         }
       ]
     },
@@ -194,24 +191,117 @@
       "hasSubcategories": true,
       "subcategories": [
         {
-          "name": "技术岗位",
-          "resources": []
+          "name": "🌍全球招聘总群",
+          "resources": [
+            {
+              "title": "@gaoxin 求职招聘1群",
+              "description": "高薪 @gaoxin 是一个提供给求职者与招聘者的平台，本平台严厉打击涉嫌卖人或虚假招聘",
+              "members": "15K+ 成员  💬500+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "@gaoxin求职招聘2群",
+              "description": "高薪 @gaoxin 是一个提供给求职者与招聘者的平台，本平台严厉打击涉嫌卖人或虚假招聘",
+              "members": "5K+ 成员  💬800+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            }
+          ]
         },
         {
-          "name": "设计岗位",
-          "resources": []
+          "name": "🍃公益频道:防骗，找人",
+          "resources": [
+            {
+              "title": "寻人启事",
+              "description": "协助寻人| 举报线索，任何人口买卖、强迫拘禁、暴力压迫行为 → 欢迎爆料。你的一条线索，可能救一条命。",
+              "link": "https://t.me/gaoxin12",
+              "members": "20+ 成员, 期待您的加入！",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "骗招揭秘",
+              "description": "曝光各种招聘骗局 |协助寻人| 举报线索，任何人口买卖、强迫拘禁、暴力压迫行为 → 欢迎爆料。你的一条线索，可能救一条命。",
+              "link": "https://t.me/gaoxin13",
+              "members": "30+ 成员 , 期待您的加入！",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "人贩子曝光",
+              "description": "曝光各种人贩子 |协助寻人| 举报线索，任何人口买卖、强迫拘禁、暴力压迫行为 → 欢迎爆料。你的一条线索，可能救一条命。",
+              "link": "https://t.me/gaoxin14",
+              "members": "30+ 成员 , 期待您的加入！",
+              "tags": ["🍃公益频道"]
+            }
+          ]
         },
         {
-          "name": "运营市场",
-          "resources": []
+          "name": "🏘️区域招聘-中文区",
+          "resources": [
+            {
+              "title": "广西求职招聘群",
+              "description": "广西及周边地区招聘信息发布与求职交流平台",
+              "members": "1K+ 成员  💬200+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "四川求职招聘群",
+              "description": "四川及周边地区招聘信息发布与求职交流平台",
+              "members": "1.4K+ 成员  💬200+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "湖南求职招聘群",
+              "description": "湖南及周边地区招聘信息发布与求职交流平台",
+              "members": "1.4K+ 成员  💬200+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "福建求职招聘群",
+              "description": "福建及周边地区招聘信息发布与求职交流平台",
+              "members": "2K+ 成员  💬300+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "上海求职招聘群",
+              "description": "上海及周边地区招聘信息发布与求职交流平台",
+              "members": "400+ 成员  💬100+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            }
+          ]
         },
         {
-          "name": "远程工作",
-          "resources": []
-        },
-        {
-          "name": "实习机会",
-          "resources": []
+          "name": "🏘️区域招聘-海外",
+          "resources": [
+            {
+              "title": "🇲🇾马来西亚求职招聘群",
+              "description": "马来西亚及周边地区招聘信息发布与求职交流平台",
+              "members": "400+ 成员  💬50+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "🇵🇭菲律宾求职招聘群",
+              "description": "菲律宾及周边地区招聘信息发布与求职交流平台",
+              "members": "300+ 成员  💬50+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "🇮🇩印度尼西亚求职招聘群",
+              "description": "印度尼西亚及周边地区招聘信息发布与求职交流平台",
+              "members": "200+ 成员  💬30+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "🇰🇭柬埔寨求职招聘群",
+              "description": "柬埔寨及周边地区招聘信息发布与求职交流平台",
+              "members": "1.6K+ 成员  💬200+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "🇹🇭泰国求职招聘群",
+              "description": "泰国及周边地区招聘信息发布与求职交流平台",
+              "members": "600+ 成员  💬90+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            }
+          ]
         }
       ]
     },
@@ -223,11 +313,24 @@
       "hasSubcategories": false,
       "resources": [
         {
-          "title": "示例Bot名称",
-          "description": "Bot功能描述",
-          "link": "https://t.me/bot_name",
-          "username": "@bot_name"
+          "title": "chaU",
+          "description": "USDT地址资金变动监控&提醒，兑换TRX能量",
+          "link": "https://t.me/chau",
+           "members": "54K+/月活跃用户"
+        },
+        {
+          "title": "@chaoji超级搜索",
+          "description": "搜索中文群组，频道，涵盖新闻资讯、吃瓜爆料、音乐、电影、成人、财经、牛人故事、科技等各个领域",
+          "link": "https://t.me/chaoji",
+          "members": "23K+/月活跃用户"
+        },
+        {
+          "title": "@seek 英文搜索",
+          "description": "搜索英文群组，频道，涵盖各个领域",
+          "link": "https://t.me/seek",
+          "members": "13K+/月活跃用户"
         }
+        
       ]
     },
     {
@@ -238,10 +341,9 @@
       "hasSubcategories": false,
       "resources": [
         {
-          "title": "服务名称",
-          "description": "服务描述",
-          "link": "https://t.me/contact",
-          "contact": "@username"
+          "title": "Telegram广告投放服务",
+          "description": "覆盖20万+人群，专业广告投放与推广服务，助力品牌快速提升曝光与转化。",
+          "link": "https://t.me/hwkf"
         }
       ]
     }
