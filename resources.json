@@ -134,7 +134,7 @@
               "description": "本频道提供：Telegram操作指导；Telegram运营经验；中文包  机器人推荐。",
               "link": "https://t.me/TGfengkong",
               "subscribers": "9K+",
-              "tags": ["✈️Telegram指南"]
+              "tags": ["🛡️Telegram指南"]
             }
           ]
         }
@@ -151,13 +151,13 @@
           "title": "代收交流群",
           "description": "卡接一道回收、码接回U、卡接二道回U、限额割扣,本群用于以上资源的对接，其他无关信息禁止发送。",
           "link": "https://t.me/daishou33",
-          "members": "500+",
+          "members": "500+ 成员  💬100+ 在线 趋势📈",
           "tags": ["💰金融服务"]
         },
         {
           "title": "黑客群",
           "description": "黑客技术交流、资源共享、项目合作、技术支持",
-          "members": "300+",
+          "members": "300+ 成员  💬100+ 在线 趋势📈",
           "tags": ["🔐网络安全"]
         },
         {
@@ -169,7 +169,7 @@
         {
           "title": "美工搭建群",
           "description": "美工设计、资源分享、技术支持",
-          "members": "150+",
+          "members": "150+ 成员  💬50+ 在线 趋势📈",
           "tags": ["🔧服务工具"]
         },
         {
@@ -194,7 +194,7 @@
           "title": "更多行业交流群。。。",
           "description": "一键添加所有行业交流群",
           "link": "https://t.me/addlist/qupdjqwWZCc0MDA1",
-          "members": "50+ 交流群",
+          "members": "20+ 交流群",
           "tags": ["🗄️一键收藏"]
         }
       ]
@@ -229,17 +229,26 @@
       "hasSubcategories": true,
       "subcategories": [
         {
-          "name": "🌍全球招聘总群",
+          "name": "🌍全球招聘",
           "resources": [
+            {
+              "title": "@gaoxin 求职招聘门户",
+              "description": "高薪 @gaoxin 是一个提供给求职者与招聘者的平台，帮助大家提升求职效率与招聘质量，本平台严厉打击涉嫌卖人或虚假招聘",
+              "subscribers": "9K+ 趋势📈",
+              "link":"https://t.me/gaoxin",
+              "tags": ["💼招聘求职"]
+            },
             {
               "title": "@gaoxin 求职招聘1群",
               "description": "高薪 @gaoxin 是一个提供给求职者与招聘者的平台，本平台严厉打击涉嫌卖人或虚假招聘",
+              "link":"https://t.me/+dBGinOPCD3c1ZmNl",
               "members": "15K+ 成员  💬500+ 在线 趋势📈",
               "tags": ["💼招聘求职"]
             },
             {
               "title": "@gaoxin求职招聘2群",
               "description": "高薪 @gaoxin 是一个提供给求职者与招聘者的平台，本平台严厉打击涉嫌卖人或虚假招聘",
+              "link":"https://t.me/+hnZaE78k6HgyNzdk",
               "members": "5K+ 成员  💬800+ 在线 趋势📈",
               "tags": ["💼招聘求职"]
             }
@@ -302,6 +311,12 @@
               "title": "上海求职招聘群",
               "description": "上海及周边地区招聘信息发布与求职交流平台",
               "members": "400+ 成员  💬100+ 在线 趋势📈",
+              "tags": ["💼招聘求职"]
+            },
+            {
+              "title": "@gaoxin 更多招聘群。。。",
+              "description": "一键添加 @gaoxin 30+ 求职&招聘交流群，求职招聘认准 @gaoxin",
+              "members": "30+ 群组资源",
               "tags": ["💼招聘求职"]
             }
           ]
