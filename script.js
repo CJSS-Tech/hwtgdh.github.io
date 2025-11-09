@@ -122,9 +122,9 @@ function createResourceCard(resource, categoryId) {
     const card = document.createElement('div');
     card.className = 'resource-card';
     
-    // 添加 Schema.org 微数据
+    // 添加 Schema.org 微数据 - 使用 CreativeWork 而不是 Product
     card.setAttribute('itemscope', '');
-    card.setAttribute('itemtype', 'https://schema.org/Product');
+    card.setAttribute('itemtype', 'https://schema.org/CreativeWork');
     
     // 构建标签HTML
     let tagsHtml = '';
